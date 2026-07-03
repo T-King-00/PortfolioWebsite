@@ -56,7 +56,14 @@
     background-color: var(--color-bg);
     color: var(--color-text);
 }
+.navbar-container{
+    text-align: center;
+    padding: 1rem;
+    .navbar-items{
+        padding: 3rem;
 
+    }
+}
 .PageContainer {
     --sidebar-width: min(100%, 30rem);
 
