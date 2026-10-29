@@ -3,7 +3,7 @@ function BodyContainer({children,className}) {
     
     return(
         <>
-            <div className={className} id={ "body-container"}>
+            <div className={className} id={ "body-container"} >
                 {children}
              </div>
         </>

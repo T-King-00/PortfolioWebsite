@@ -20,10 +20,10 @@ function App() {
 <BrowserRouter>
     <div id="App">
         <Header/>
-        <nav>
-            <NavLink to={"projects"}>projects</NavLink>
-            <NavLink to={"/"}>Resume</NavLink>
-        </nav>
+        {/*<nav>*/}
+        {/*    <NavLink to={"Projects"}>projects</NavLink>*/}
+        {/*    <NavLink to={"Resume"}>Resume</NavLink>*/}
+        {/*</nav>*/}
         
         <aside className="PageContainer">
             <SideBar />
@@ -35,8 +35,10 @@ function App() {
                 </Routes>
                 <About/>
                 <Skills/>
+                <ProjectsMemo/>
                 <Education/>
                 <Experience/>
+
             </BodyContainer>
            
         </aside>
@@ -47,7 +49,4 @@ function App() {
 </BrowserRouter>
   )
 }
-
-
-
 export default App
