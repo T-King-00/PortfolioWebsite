@@ -1,7 +1,8 @@
 ﻿import "./Footer.css"
+import {github, linkedin} from "../../link.jsx";
 
-const githubLink="https://github.com/T-King-00";
-const linkedinLink="https://www.linkedin.com/in/tony-r-5393901b2";
+const githubLink=github;
+const linkedinLink=linkedin;
 function Footer() {
 
    return( 
