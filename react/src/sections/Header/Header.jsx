@@ -6,7 +6,7 @@ function Header() {
         <header className="header-container" id={"Header"}>
             <ul className="header-list">
                 <li className={ "header-list-item"}> 
-                    <a className="social-link" href="https://www.linkedin.com/in/tony-r-5393901b2"
+                    <a className="social-link" href="https://www.linkedin.com/in/tony-riad-5393901b2/"
                        target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
                         <span className="social-icon linkedin-icon" aria-hidden="true"></span>
                     </a>
