@@ -7,16 +7,18 @@ cd react
 npm run build
 cd ..
 
-echo "tracking allfiles..."
+echo "**Tracking all files......"
 git add .
 git add react/dist -f
 
 
-echo "commiting with empty msg..."
+echo "**Commiting with empty msg........"
 git commit --allow-empty-message || echo "err"
-echo "pushing to remote repo..."
+echo "***Pushing to remote repo..........."
 git push origin deployment
-echo "pushing react/dist to deploymentWeb branch..."
+
+echo "***Pushing react/dist to deploymentWeb branch........."
+git fetch origin
 git push --force-with-lease origin $(git subtree split --prefix react/dist):deploymentWeb
 
-echo "Done all steps..! "
+echo "Done all steps.......! "
